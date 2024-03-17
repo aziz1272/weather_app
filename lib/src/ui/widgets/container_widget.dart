@@ -10,9 +10,10 @@ class ContainerWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    Size ssd = MediaQuery.of(context).size;
     return Container(
-        height: double.infinity,
-        width: double.infinity,
+        height: ssd.height,
+        width: ssd.width,
         decoration: BoxDecoration(
         gradient: LinearGradient(
         begin: Alignment.topCenter,

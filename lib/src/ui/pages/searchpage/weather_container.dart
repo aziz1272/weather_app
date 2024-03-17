@@ -42,7 +42,8 @@ class WeatherContainer extends StatelessWidget {
                     color: Colors.black87,
                     fontSize: 22,
                     fontWeight: FontWeight.w500,
-                    overflow: TextOverflow.ellipsis),
+                    overflow: TextOverflow.ellipsis,
+                ),
                 maxLines: 1,
               ),
               Text(

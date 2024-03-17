@@ -23,6 +23,9 @@ class ApiServices {
         state_weather: '',
         weather_icon: '',
         wind_kph: 0,
-        humidity: 0);
+        humidity: 0,
+        lat: 0,
+      lon: 0,
+    );
   }
 }

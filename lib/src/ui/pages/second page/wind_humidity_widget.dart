@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:weather_app/src/repository/models/weather_model.dart';
+import '../../../repository/models/weather_model.dart';
 
 class WindHumidityWidget extends StatelessWidget {
   WeatherModel model;
@@ -26,7 +26,7 @@ class WindHumidityWidget extends StatelessWidget {
             child: Column(
               children: [
                 const Text(
-                  "shamol tezligi",
+                  "wind speed",
                   style: TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.w600,
@@ -52,7 +52,7 @@ class WindHumidityWidget extends StatelessWidget {
             child: Column(
               children: [
                 const Text(
-                  "Nisbiy namlik",
+                  "humidity",
                   style: TextStyle(
                       color: Colors.black,
                       fontWeight: FontWeight.w600,
